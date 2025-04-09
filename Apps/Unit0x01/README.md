@@ -7,10 +7,15 @@
 
 > The aim of unit 0x01 is to get a feel for the structure and main components of an iOS app, Xcode as an IDE and how they work together. 
 
+Just start with the apps in 'Basics' and compare the different ways of implementing a grid layout.
+
 ---
 
 
-### 👉 Task 'Cove of Shadows'
+## Tasks
+
+
+### 👉 Task 'Cove of Shadows' (Swift)
 
 - Check which SWIFT concepts you do not yet understand.
 - Ask or try them out.
@@ -18,10 +23,10 @@
 ---
 
 
-### 👉 Task 'The Burning Mountain'
+### 👉 Task 'The Burning Mountain' (Project)
 
 - Create your first own project via 'File -> New -> Project', then select 'iOS -> App' and a fancy product name - Violà!
-- Run your app on various iOS simulators, e.g. a new iPhone _and_ iPad.
+- Run your app on various iOS simulators, e.g. an iPhone _and_ iPad.
 - Create another iOS App by adding a 'target' (select the main project and then add one in 'TARGETS').
 - Rename a project. You will need to rename the project in the 'Project Navigator', the target list and the schemes.
 
@@ -30,32 +35,34 @@
 ---
 
 
-### 👉 Task 'The Inferno Forest'
-
-- Build some easy layout. TBD
-
----
+### 👉 Task 'Town of Illusions' (App-Template)
 
 
-### 👉 Task 'Town of Illusions'
-
-
-- Try to build an app similar to `caa_blueprint_app`, i.e. a landing screen and some content, selectable by a `TabView`, holding data in some model.
-- You could copy content from `caa_blueprint_app', but only step by step, so you can see the effects.
+- Try to build an app similar to `BlueprintApp`, i.e. a landing screen and some content, selectable by a `TabView`, holding data in some model.
+- You could copy content from `BlueprintApp', but only step by step, so you can see the effects.
 
 ---
 
 
-### 👉 Task 'Island of Smoke'
+### 👉 Task 'Island of Smoke' (Calculator)
 
-- Copy the `cba_calculator_app' to your project and add your own calculation to the `buttonTapped` function.
+- Create a new app (a copy of) `CalculatorApp` in your project and implement a calculation to the `buttonTapped` function.
 - Hint: `CalculatorScreenHint' contains a reference implementation.
 
 ---
 
 
-### 👉 Task 'Island of Smoke'
+### 👉 Task 'Island of Smoke' (Connect Four)
 
-- Copy the `cbd_connect_four_app' to your project and add your own turn management and winner detection algorithm to the `dropDisc` function.
+- Create a new app (a copy of) `ConnectFourApp` to your project and add your own turn management and winner detection algorithm to the `dropDisc` function.
 - Hint: `ConnectFourScreenHint' contains a reference implementation.
 
+---
+
+
+### 👉 Task 'The Inferno Forest' (Sliding Puzzle)
+
+- Create a new app `SlidingPuzzleApp` to your project and implement a 'Sliding Puzzle', see [Sliding Puzzle](https://en.wikipedia.org/wiki/Sliding_puzzle)
+- Use the layout and data model from `MemoryApp` as a start, if you like.
+
+---
