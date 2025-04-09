@@ -1,9 +1,4 @@
-//
-//  c_connect_four_appApp.swift
-//  c_connect_four_app
-//
-//  Created by Alexander Voss on 02.04.25.
-//
+// (C) 2025 Alexander Voß, a.voss@fh-aachen.de, info@codebasedlearning.dev
 
 import SwiftUI
 

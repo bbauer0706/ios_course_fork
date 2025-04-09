@@ -1,4 +1,4 @@
-// (C) 2025 A.Voß, a.voss@fh-aachen.de, info@codebasedlearning.dev
+// (C) 2025 Alexander Voß, a.voss@fh-aachen.de, info@codebasedlearning.dev
 
 /*
  Not so much from the language point of view, only a class with properties and a backing field.

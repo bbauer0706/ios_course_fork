@@ -1,4 +1,4 @@
-// (C) 2025 A.Voß, a.voss@fh-aachen.de, info@codebasedlearning.dev
+// (C) 2025 Alexander Voß, a.voss@fh-aachen.de, info@codebasedlearning.dev
 
 import SwiftUI
 import CblUI
@@ -9,21 +9,10 @@ struct TicTacToeScreen: View {
     
     var body: some View {
         CblScreen(title: "Board Games", image: "memory_backgrd") {
-
-//        ZStack {
-//            Image("street_board_game")
-//                .resizable()
-//                .scaledToFill()
-//                .opacity(0.6)
-//                .ignoresSafeArea()
             VStack(spacing:0) {
-                //Divider()
-                //HeaderText(text: "Tic Tac Toe")
-                //    .padding(.bottom, 20)
-                
                 HighscoreView()
                 TicTacToeView()
-
+                
                 HStack {
                     Spacer()
                     Button("Reset") { game.reset(); highscore.reset() }
@@ -33,10 +22,6 @@ struct TicTacToeScreen: View {
                         highscore.score += 1
                     }
                     Spacer()
-                    //.foregroundColor(.black)
-                        //.padding()
-                    //.background(Color.orange.opacity(0.6))
-                    //.cornerRadius(20)
                 }
                 Spacer()
             }
@@ -47,7 +32,7 @@ struct TicTacToeScreen: View {
 struct HighscoreView: View {
     @Environment(HighscoreViewModel.self) private var highscore
     @Environment(TicTacToeViewModel.self) private var game
-
+    
     var body: some View {
         Text("Player \(game.currentPlayer) [\(highscore.score)]")
             .font(.title3)
@@ -55,16 +40,6 @@ struct HighscoreView: View {
             .frame(maxWidth: .infinity).background(CblTheme.dark.opacity(0.9))
             .border(CblTheme.light)
             .padding()
-//        ZStack {
-//            Text("Player [\(highscore.score)]")
-//                .font(.title3)
-//                .foregroundColor(.orange)
-//            HStack(spacing: 5) {
-//                Spacer()
-//            }
-//        }
-//            .frame(maxWidth: .infinity, maxHeight: 40)
-//            .background(.black.opacity(0.5))
     }
 }
 
@@ -80,7 +55,7 @@ struct TicTacToeView: View {
                     Rectangle()
                         .foregroundColor(CblTheme.medium.opacity(0.8))
                         .frame(height: 120)
-                        //.cornerRadius(10)
+                    //.cornerRadius(10)
                         .border(CblTheme.light)
                     Text(game.board[index].rawValue)
                         .font(.system(size: 40))

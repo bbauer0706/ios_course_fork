@@ -1,4 +1,4 @@
-// (C) 2025 A.Voß, a.voss@fh-aachen.de, info@codebasedlearning.dev
+// (C) 2025 Alexander Voß, a.voss@fh-aachen.de, info@codebasedlearning.dev
 
 import SwiftUI
 import CblUI
@@ -25,7 +25,6 @@ struct ContentView: View {
                 Label("Grids", systemImage: "square.grid.4x3.fill")
             }.tag(4)
         }
-        //.tint(.mint)
         .accentColor(colorScheme == .dark ? CblTheme.light : CblTheme.red)
         .onAppear { selectedTab = 0 }
     }

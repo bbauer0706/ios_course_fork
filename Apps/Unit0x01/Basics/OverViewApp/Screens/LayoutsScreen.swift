@@ -1,4 +1,4 @@
-// (C) 2025 A.Voß, a.voss@fh-aachen.de, info@codebasedlearning.dev
+// (C) 2025 Alexander Voß, a.voss@fh-aachen.de, info@codebasedlearning.dev
 
 import SwiftUI
 import CblUI
@@ -7,7 +7,6 @@ struct LayoutsScreen: View {
     var body: some View {
         CblScreen(title: "Layouts", image: "Background") {
             VStack(spacing: 5) {
-                //Divider()
                 HStacksBlock()
                 VStacksBlock()
                 ZStacksBlock()
@@ -105,7 +104,7 @@ struct ZStacksBlock: View {
                     .foregroundColor(.red)
                 Text("Favorite")
             }.padding(5).background(.pink.opacity(0.6))
-       }.padding()
+        }.padding()
     }
 }
 
@@ -131,7 +130,7 @@ struct AlignmentBlock: View {
                 Color.blue.frame(width: 10, height: 30)
                 Spacer()
             }.frame(height: 40) // alignment centered
-            .background(.pink.opacity(0.5))
+                .background(.pink.opacity(0.5))
             HStack(alignment: .top) {
                 Spacer()
                 Color.red.frame(width: 10, height: 10)
@@ -141,7 +140,7 @@ struct AlignmentBlock: View {
                 Color.blue.frame(width: 10, height: 30)
                 Spacer()
             }.frame(height: 30, alignment: .bottom)
-            .background(.pink.opacity(0.6))
+                .background(.pink.opacity(0.6))
         }.padding()
     }
 }

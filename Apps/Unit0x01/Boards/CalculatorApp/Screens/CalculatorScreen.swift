@@ -7,16 +7,7 @@ struct CalculatorScreen: View {
     
     var body: some View {
         CblScreen(title: "Calc", image: "lego_class_background") {
-        //ZStack {
-//            Image("lego_class_background")
-//                .resizable()
-//                //.scaledToFill()
-//                .opacity(0.2)
-//                .ignoresSafeArea()
             VStack(spacing:0) {
-                //Divider()
-                //HeaderText(text: "Welcome Screen")
-                //    .padding(.bottom, 20)
                 CalculatorView()
                 Spacer()
             }
@@ -53,15 +44,15 @@ struct CalculatorView: View {
                             Text(label)
                                 .font(.title)
                                 .frame(width: 70, height: 70)
-                                //.tint(Color.white)
+                            //.tint(Color.white)
                                 .tint(CblTheme.light)
-                                //.background(Color.blue.opacity(0.5))
+                            //.background(Color.blue.opacity(0.5))
                                 .background(CblTheme.dark)
                                 .clipShape(Circle())
                         }
                     }
                 }
-            } //.padding()
+            }
             
             Button("Clear") {
                 clear()

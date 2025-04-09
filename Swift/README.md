@@ -1,8 +1,9 @@
 [© 2025, Alexander Voß, FH Aachen, codebasedlearning.dev](mailto:info@codebasedlearning.dev)
 
-# iOS Course
+# iOS Course – Swift 
 
-## Swift Topics 
+
+## Topics 
 
 We discuss these subjects:
 - comments
@@ -184,7 +185,4 @@ Test edge cases such as dequeueing from an empty queue.
 - If you have not completed the main tasks in the exercise, complete them at home.
 
 ---
-
-
-End of `Tasks`
 

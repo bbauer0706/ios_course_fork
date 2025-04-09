@@ -1,4 +1,4 @@
-// (C) 2025 A.Voß, a.voss@fh-aachen.de, info@codebasedlearning.dev
+// (C) 2025 Alexander Voß, a.voss@fh-aachen.de, info@codebasedlearning.dev
 
 import SwiftUI
 import CblUI
@@ -7,9 +7,7 @@ struct TextsScreen: View {
     var body: some View {
         CblScreen(title: "Texts", image: "Background") {
             VStack(spacing: 5) {
-                //Divider()
                 FontsBlock()
-                //WeightsBlock()
                 ShortsBlock()
                 ColoredBlock()
                 MultilinesBlock()
@@ -159,7 +157,6 @@ struct MiscTextsBlock: View {
                     .background(Color.blue) // order padding - background
                     .padding(5)
                     .foregroundColor(.white)
-                //.clipShape(RoundedRectangle(cornerRadius: 10))
                     .shadow(color: .red, radius: 5, x: 0, y: 2)
                 Spacer()
                 Text("Text")
@@ -181,6 +178,7 @@ struct MiscTextsBlock: View {
         }
     }
 }
+
 struct GeometryReaderBlock: View {
     var body: some View {
         /*

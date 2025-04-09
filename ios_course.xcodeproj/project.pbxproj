@@ -67,7 +67,6 @@
 		9509EE9E2D9E663E0032A1C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9509EE602D9E663E0032A1C6 /* ContentView.swift */; };
 		9509EE9F2D9E663E0032A1C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9509EE5E2D9E663E0032A1C6 /* Assets.xcassets */; };
 		9509EEB52D9E66C10032A1C6 /* CalculatorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9509EEB42D9E66C10032A1C6 /* CalculatorScreen.swift */; };
-		9509EEB82D9E66FC0032A1C6 /* HeaderText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9509EEB62D9E66FC0032A1C6 /* HeaderText.swift */; };
 		9509EEBB2D9E6DC70032A1C6 /* MemoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9509EEB92D9E6DC70032A1C6 /* MemoryScreen.swift */; };
 		9509EEC12D9E6F2C0032A1C6 /* MemoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9509EEC02D9E6F2C0032A1C6 /* MemoryViewModel.swift */; };
 		9509EEC42D9E718E0032A1C6 /* ConnectFourScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9509EEC22D9E718E0032A1C6 /* ConnectFourScreen.swift */; };
@@ -83,6 +82,14 @@
 		9589BD322DA44B7B006BCEB1 /* libCblUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9509EEF62DA110DA0032A1C6 /* libCblUI.a */; };
 		9589BD352DA4662D006BCEB1 /* libCblUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9509EEF62DA110DA0032A1C6 /* libCblUI.a */; };
 		9589BD392DA46776006BCEB1 /* ConnectFourScreenHint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589BD382DA46773006BCEB1 /* ConnectFourScreenHint.swift */; };
+		95F9E79C2DA676B30061B4E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F9E7982DA676B30061B4E4 /* Assets.xcassets */; };
+		95F9E79D2DA676B30061B4E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9E7992DA676B30061B4E4 /* ContentView.swift */; };
+		95F9E79E2DA676B30061B4E4 /* TouchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9E79A2DA676B30061B4E4 /* TouchApp.swift */; };
+		95F9E7A12DA6771A0061B4E4 /* SensorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9E79F2DA6771A0061B4E4 /* SensorModel.swift */; };
+		95F9E7A22DA6771A0061B4E4 /* SensorsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9E7A02DA6771A0061B4E4 /* SensorsScreen.swift */; };
+		95F9E7A32DA678290061B4E4 /* libCblUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9509EEF62DA110DA0032A1C6 /* libCblUI.a */; };
+		95F9E7A72DA679830061B4E4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 95F9E7A62DA679830061B4E4 /* README.md */; };
+		95F9E7AA2DA6834E0061B4E4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 95F9E7A92DA6834E0061B4E4 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +129,13 @@
 			remoteInfo = CblUI;
 		};
 		9589BD362DA4662D006BCEB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9505E7EB2D992EC1004DB066 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9509EEF52DA110DA0032A1C6;
+			remoteInfo = CblUI;
+		};
+		95F9E7A42DA678290061B4E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9505E7EB2D992EC1004DB066 /* Project object */;
 			proxyType = 1;
@@ -335,7 +349,6 @@
 		9509EE5F2D9E663E0032A1C6 /* ConnectFourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectFourApp.swift; sourceTree = "<group>"; };
 		9509EE602D9E663E0032A1C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9509EEB42D9E66C10032A1C6 /* CalculatorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorScreen.swift; sourceTree = "<group>"; };
-		9509EEB62D9E66FC0032A1C6 /* HeaderText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderText.swift; sourceTree = "<group>"; };
 		9509EEB92D9E6DC70032A1C6 /* MemoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryScreen.swift; sourceTree = "<group>"; };
 		9509EEC02D9E6F2C0032A1C6 /* MemoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryViewModel.swift; sourceTree = "<group>"; };
 		9509EEC22D9E718E0032A1C6 /* ConnectFourScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectFourScreen.swift; sourceTree = "<group>"; };
@@ -347,6 +360,15 @@
 		957968162DA3D59300C4997B /* ContentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentScreen.swift; sourceTree = "<group>"; };
 		9589BD2D2DA4396A006BCEB1 /* CalculatorScreenHint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorScreenHint.swift; sourceTree = "<group>"; };
 		9589BD382DA46773006BCEB1 /* ConnectFourScreenHint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectFourScreenHint.swift; sourceTree = "<group>"; };
+		95F9E78D2DA676AB0061B4E4 /* x02_touch_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = x02_touch_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F9E7982DA676B30061B4E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95F9E7992DA676B30061B4E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		95F9E79A2DA676B30061B4E4 /* TouchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchApp.swift; sourceTree = "<group>"; };
+		95F9E79F2DA6771A0061B4E4 /* SensorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorModel.swift; sourceTree = "<group>"; };
+		95F9E7A02DA6771A0061B4E4 /* SensorsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsScreen.swift; sourceTree = "<group>"; };
+		95F9E7A62DA679830061B4E4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		95F9E7A82DA681FA0061B4E4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		95F9E7A92DA6834E0061B4E4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -517,6 +539,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		95F9E78A2DA676AB0061B4E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F9E7A32DA678290061B4E4 /* libCblUI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -558,6 +588,7 @@
 				9509EDA42D9DE5CF0032A1C6 /* s_solutions_part_1 */,
 				9509EDB32D9DE5E20032A1C6 /* s_solutions_part_2 */,
 				9509EEF62DA110DA0032A1C6 /* libCblUI.a */,
+				95F9E78D2DA676AB0061B4E4 /* x02_touch_app.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -634,8 +665,8 @@
 				9509EDF42D9E66000032A1C6 /* Screens */,
 				9509EDF62D9E66000032A1C6 /* ViewLib */,
 				9509EDF72D9E66000032A1C6 /* Assets.xcassets */,
-				9509EDF82D9E66000032A1C6 /* ContentView.swift */,
 				9509EDF92D9E66000032A1C6 /* FirstModelsApp.swift */,
+				9509EDF82D9E66000032A1C6 /* ContentView.swift */,
 			);
 			path = FirstModelsApp;
 			sourceTree = "<group>";
@@ -832,7 +863,6 @@
 		9509EE4D2D9E663E0032A1C6 /* CalculatorApp */ = {
 			isa = PBXGroup;
 			children = (
-				9509EEB72D9E66FC0032A1C6 /* ViewLib */,
 				9509EEB32D9E667B0032A1C6 /* Screens */,
 				9509EE4A2D9E663E0032A1C6 /* Assets.xcassets */,
 				9509EE4B2D9E663E0032A1C6 /* CalculatorApp.swift */,
@@ -900,6 +930,7 @@
 				9509EEDE2D9E84380032A1C6 /* README.md */,
 				95243EF82DA653C700AD2FE8 /* CblUI */,
 				95243EF42DA6537A00AD2FE8 /* Unit0x01 */,
+				95F9E7872DA676190061B4E4 /* Unit0x02 */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -911,14 +942,6 @@
 				9509EEB42D9E66C10032A1C6 /* CalculatorScreen.swift */,
 			);
 			path = Screens;
-			sourceTree = "<group>";
-		};
-		9509EEB72D9E66FC0032A1C6 /* ViewLib */ = {
-			isa = PBXGroup;
-			children = (
-				9509EEB62D9E66FC0032A1C6 /* HeaderText.swift */,
-			);
-			path = ViewLib;
 			sourceTree = "<group>";
 		};
 		9509EEBA2D9E6DC70032A1C6 /* Screens */ = {
@@ -949,6 +972,7 @@
 		95243EF42DA6537A00AD2FE8 /* Unit0x01 */ = {
 			isa = PBXGroup;
 			children = (
+				95F9E7A62DA679830061B4E4 /* README.md */,
 				95243EF52DA6537D00AD2FE8 /* Basics */,
 				95243EF62DA6538600AD2FE8 /* Boards */,
 			);
@@ -978,6 +1002,7 @@
 		95243EF82DA653C700AD2FE8 /* CblUI */ = {
 			isa = PBXGroup;
 			children = (
+				95F9E7A82DA681FA0061B4E4 /* README.md */,
 				95243EF72DA653C700AD2FE8 /* CblUI.swift */,
 			);
 			path = CblUI;
@@ -988,6 +1013,35 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95F9E7872DA676190061B4E4 /* Unit0x02 */ = {
+			isa = PBXGroup;
+			children = (
+				95F9E7A92DA6834E0061B4E4 /* README.md */,
+				95F9E7882DA676880061B4E4 /* Sensors */,
+			);
+			path = Unit0x02;
+			sourceTree = "<group>";
+		};
+		95F9E7882DA676880061B4E4 /* Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				95F9E79B2DA676B30061B4E4 /* TouchApp */,
+			);
+			path = Sensors;
+			sourceTree = "<group>";
+		};
+		95F9E79B2DA676B30061B4E4 /* TouchApp */ = {
+			isa = PBXGroup;
+			children = (
+				95F9E79F2DA6771A0061B4E4 /* SensorModel.swift */,
+				95F9E7A02DA6771A0061B4E4 /* SensorsScreen.swift */,
+				95F9E7982DA676B30061B4E4 /* Assets.xcassets */,
+				95F9E79A2DA676B30061B4E4 /* TouchApp.swift */,
+				95F9E7992DA676B30061B4E4 /* ContentView.swift */,
+			);
+			path = TouchApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1436,6 +1490,26 @@
 			productReference = 9509EEF62DA110DA0032A1C6 /* libCblUI.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		95F9E78C2DA676AB0061B4E4 /* x02_touch_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F9E7952DA676AC0061B4E4 /* Build configuration list for PBXNativeTarget "x02_touch_app" */;
+			buildPhases = (
+				95F9E7892DA676AB0061B4E4 /* Sources */,
+				95F9E78A2DA676AB0061B4E4 /* Frameworks */,
+				95F9E78B2DA676AB0061B4E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95F9E7A52DA678290061B4E4 /* PBXTargetDependency */,
+			);
+			name = x02_touch_app;
+			packageProductDependencies = (
+			);
+			productName = Touch;
+			productReference = 95F9E78D2DA676AB0061B4E4 /* x02_touch_app.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1443,7 +1517,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1620;
+				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					9505E7FB2D998B62004DB066 = {
@@ -1515,6 +1589,9 @@
 					9509EEF52DA110DA0032A1C6 = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					95F9E78C2DA676AB0061B4E4 = {
+						CreatedOnToolsVersion = 16.3;
+					};
 				};
 			};
 			buildConfigurationList = 9505E7EE2D992EC1004DB066 /* Build configuration list for PBXProject "ios_course" */;
@@ -1537,6 +1614,7 @@
 				9509ECC02D9D89AD0032A1C6 /* x01_tictactoe_app */,
 				9509ECEC2D9DDA900032A1C6 /* x01_memory_app */,
 				9509ED062D9DDB190032A1C6 /* x01_connect_four_app */,
+				95F9E78C2DA676AB0061B4E4 /* x02_touch_app */,
 				9505E7FB2D998B62004DB066 /* m_first_app */,
 				9505E80E2D998BC7004DB066 /* m_first_views_app */,
 				9509EBD02D9D3DC60032A1C6 /* m_first_screens_app */,
@@ -1604,6 +1682,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F9E7A72DA679830061B4E4 /* README.md in Resources */,
 				9509EE8E2D9E663E0032A1C6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1637,6 +1716,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9509EE912D9E663E0032A1C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F9E78B2DA676AB0061B4E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F9E7AA2DA6834E0061B4E4 /* README.md in Resources */,
+				95F9E79C2DA676B30061B4E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1832,7 +1920,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9509EE8F2D9E663E0032A1C6 /* ContentView.swift in Sources */,
-				9509EEB82D9E66FC0032A1C6 /* HeaderText.swift in Sources */,
 				9589BD2E2DA43973006BCEB1 /* CalculatorScreenHint.swift in Sources */,
 				9509EEB52D9E66C10032A1C6 /* CalculatorScreen.swift in Sources */,
 				9509EE902D9E663E0032A1C6 /* CalculatorApp.swift in Sources */,
@@ -1860,6 +1947,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				95243EF92DA653C700AD2FE8 /* CblUI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F9E7892DA676AB0061B4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F9E7A12DA6771A0061B4E4 /* SensorModel.swift in Sources */,
+				95F9E7A22DA6771A0061B4E4 /* SensorsScreen.swift in Sources */,
+				95F9E79D2DA676B30061B4E4 /* ContentView.swift in Sources */,
+				95F9E79E2DA676B30061B4E4 /* TouchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1895,6 +1993,11 @@
 			isa = PBXTargetDependency;
 			target = 9509EEF52DA110DA0032A1C6 /* CblUI */;
 			targetProxy = 9589BD362DA4662D006BCEB1 /* PBXContainerItemProxy */;
+		};
+		95F9E7A52DA678290061B4E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9509EEF52DA110DA0032A1C6 /* CblUI */;
+			targetProxy = 95F9E7A42DA678290061B4E4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1970,6 +2073,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1985,7 +2089,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fh-aachen.ios.aa-first-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fh-aachen.ios.m-first-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -2050,6 +2154,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -2064,7 +2169,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fh-aachen.ios.aa-first-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fh-aachen.ios.m-first-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -2135,6 +2240,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -2150,7 +2256,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fh-aachen.ios.ab-first-views-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fh-aachen.ios.m-first-views-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -2215,6 +2321,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -2229,7 +2336,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fh-aachen.ios.ab-first-views-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fh-aachen.ios.m-first-views-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -2300,6 +2407,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -2315,7 +2423,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fh-aachen.ios.ad-first-models-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fh-aachen.ios.m-first-models-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -2380,6 +2488,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -2394,7 +2503,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fh-aachen.ios.ad-first-models-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fh-aachen.ios.m-first-models-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -2465,6 +2574,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -2545,6 +2655,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -3746,6 +3857,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -3761,7 +3873,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fh-aachen.ios.ac-first-screens-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fh-aachen.ios.m-first-screens-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -3826,6 +3938,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -3840,7 +3953,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fh-aachen.ios.ac-first-screens-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fh-aachen.ios.m-first-screens-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -4035,6 +4148,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -4115,6 +4229,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -4200,6 +4315,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -4280,6 +4396,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -4365,6 +4482,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -4445,6 +4563,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -4530,6 +4649,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -4610,6 +4730,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -4695,6 +4816,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -4775,6 +4897,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -5188,6 +5311,169 @@
 			};
 			name = Release;
 		};
+		95F9E7962DA676AC0061B4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fh-aachen.ios.x02-touch-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95F9E7972DA676AC0061B4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fh-aachen.ios.x02-touch-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -5403,6 +5689,15 @@
 			buildConfigurations = (
 				9509EEFA2DA110DA0032A1C6 /* Debug */,
 				9509EEFB2DA110DA0032A1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F9E7952DA676AC0061B4E4 /* Build configuration list for PBXNativeTarget "x02_touch_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F9E7962DA676AC0061B4E4 /* Debug */,
+				95F9E7972DA676AC0061B4E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

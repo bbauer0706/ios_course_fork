@@ -1,4 +1,4 @@
-// (C) 2025 A.Voß, a.voss@fh-aachen.de, info@codebasedlearning.dev
+// (C) 2025 Alexander Voß, a.voss@fh-aachen.de, info@codebasedlearning.dev
 
 import SwiftUI
 import CblUI
@@ -6,36 +6,26 @@ import CblUI
 struct MemoryScreen: View {
     var body: some View {
         CblScreen(title: "Memory", image: "memory_background") {
-        //ZStack {
-//            Image("memory_background")
-//                .resizable()
-//                //.scaledToFill()
-//                .opacity(0.2)
-//                .ignoresSafeArea()
             VStack(spacing:0) {
-                //Divider()
-                //HeaderText(text: "Memory")
-                //    .padding(.bottom, 20)
                 Spacer()
                 MemoryCardGameView()
                 Spacer()
             }
-            
         }
     }
 }
 
 struct MemoryCardGameView: View {
     @Environment(MemoryViewModel.self) private var game
-
+    
     private let emojis = ["🍎", "🍌", "🍓", "🍇", "🍉", "🍍", "🥝", "🍒"]
     //@State private var cards: [Card] = []
     @State private var firstFlipped: Int? = nil
     @State private var matchedPairs = 0
-
+    
     var body: some View {
         VStack {
-
+            
             Grid(horizontalSpacing: 8, verticalSpacing: 8) {
                 ForEach(0..<4) { row in
                     GridRow {
@@ -54,7 +44,7 @@ struct MemoryCardGameView: View {
                 }
             }
             .padding()
-
+            
             Button("Reset") {
                 resetGame()
             }
@@ -62,12 +52,12 @@ struct MemoryCardGameView: View {
         }
         .onAppear(perform: resetGame)
     }
-
+    
     private func flipCard(at index: Int) {
         guard !game.cards[index].isMatched && !game.cards[index].isFaceUp else { return }
-
+        
         game.cards[index].isFaceUp = true
-
+        
         if let first = firstFlipped {
             if game.cards[first].emoji == game.cards[index].emoji {
                 game.cards[first].isMatched = true
@@ -84,7 +74,7 @@ struct MemoryCardGameView: View {
             firstFlipped = index
         }
     }
-
+    
     private func resetGame() {
         let paired = (emojis + emojis).shuffled()
         game.cards = paired.map { Card(emoji: $0) }
@@ -95,7 +85,7 @@ struct MemoryCardGameView: View {
 
 struct CardView: View {
     let card: Card
-
+    
     var body: some View {
         ZStack {
             if card.isFaceUp || card.isMatched {

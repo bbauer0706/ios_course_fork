@@ -1,4 +1,4 @@
-// (C) 2025 A.Voß, a.voss@fh-aachen.de, info@codebasedlearning.dev
+// (C) 2025 Alexander Voß, a.voss@fh-aachen.de, info@codebasedlearning.dev
 
 import SwiftUI
 import CblUI
@@ -7,16 +7,7 @@ struct ConnectFourScreen: View {
     
     var body: some View {
         CblScreen(title: "Connect Four", image: "lego_background") {
-        //ZStack {
-//            Image("lego_background")
-//                .resizable()
-//            //.scaledToFill()
-//                .opacity(0.2)
-//                .ignoresSafeArea()
             VStack(spacing:0) {
-                //Divider()
-                //HeaderText(text: "Connect Four")
-                //    .padding(.bottom, 20)
                 ConnectFourView()
                 Spacer()
             }
@@ -36,10 +27,6 @@ struct ConnectFourView: View {
     
     var body: some View {
         VStack {
-            //Text(winnerText)
-            //    .font(.title)
-            //    .padding()
-            
             Text(winnerText)
                 .font(.title3)
                 .foregroundColor(CblTheme.light)
@@ -95,8 +82,6 @@ struct ConnectFourView: View {
         currentPlayer = .red
         winner = nil
     }
-    
-    
 }
 
 enum Player: String {
