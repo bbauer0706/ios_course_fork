@@ -9,6 +9,12 @@
 
 Just start with the apps in 'Basics' and compare the different ways of implementing a grid layout.
 
+
+### Connect to your Device
+
+We will add a todo list for this. If you want to try this yourself, remember to add a `Provisioning Profile` and `Team` to your target project settings.  Use 'Automatically manage signing'.'
+
+
 ---
 
 
