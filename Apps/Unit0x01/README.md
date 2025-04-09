@@ -33,6 +33,7 @@ We will add a todo list for this. If you want to try this yourself, remember to 
 
 - Create your first own project via 'File -> New -> Project', then select 'iOS -> App' and a fancy product name - Violà!
 - Run your app on various iOS simulators, e.g. an iPhone _and_ iPad.
+- Add a copy of a new iPhone 16 as your `Run Destination` (`Manage Run Destination`, `+`).
 - Create another iOS App by adding a 'target' (select the main project and then add one in 'TARGETS').
 - Rename a project. You will need to rename the project in the 'Project Navigator', the target list and the schemes.
 
