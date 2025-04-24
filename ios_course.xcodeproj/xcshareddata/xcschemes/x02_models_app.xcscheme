@@ -15,9 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "95F9E78C2DA676AB0061B4E4"
-               BuildableName = "x03_touch_app.app"
-               BlueprintName = "x03_touch_app"
+               BlueprintIdentifier = "952C99A72DB9724100186C03"
+               BuildableName = "x02_models_app.app"
+               BlueprintName = "x02_models_app"
                ReferencedContainer = "container:ios_course.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "95F9E78C2DA676AB0061B4E4"
-            BuildableName = "x03_touch_app.app"
-            BlueprintName = "x03_touch_app"
+            BlueprintIdentifier = "952C99A72DB9724100186C03"
+            BuildableName = "x02_models_app.app"
+            BlueprintName = "x02_models_app"
             ReferencedContainer = "container:ios_course.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "95F9E78C2DA676AB0061B4E4"
-            BuildableName = "x03_touch_app.app"
-            BlueprintName = "x03_touch_app"
+            BlueprintIdentifier = "952C99A72DB9724100186C03"
+            BuildableName = "x02_models_app.app"
+            BlueprintName = "x02_models_app"
             ReferencedContainer = "container:ios_course.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

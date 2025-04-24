@@ -9,15 +9,14 @@ struct ContentView: View {
 
     var body: some View {
         TabView(selection: $selectedTab) {
-            SensorsScreen().tabItem {
+            SensorScreen().tabItem {
                 Label("Sensors", systemImage: "1.circle")
             }.tag(0)
+            // PostScreen().tabItem {
+            //     Label("Posts", systemImage: "2.circle")
+            // }.tag(1)
         }
         .accentColor(colorScheme == .dark ? CblTheme.light : CblTheme.red)
         .onAppear { selectedTab = 0 }
     }
-}
-
-#Preview {
-    ContentView()
 }
